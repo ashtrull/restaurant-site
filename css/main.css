@@ -1,0 +1,141 @@
+/***** GRID *****/
+.full-width {
+  margin: 0 0 0 15px;
+  width: 100%;
+}
+
+.half-width {
+  float: left;
+  margin: 0 0 0 15px;
+  width: 600px;
+}
+
+.third-width {
+  float: left;
+  padding: 15px 15px 0 30px;
+  width: 355px;
+}
+
+/***** GENERAL STYLES *****/
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+
+/***** HEADER *****/
+.header-title {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  padding: 30px 15px;
+  text-transform: uppercase;
+}
+
+.title-secondary {
+  color: #77a466;
+}
+
+nav {
+  padding: 60px 40px 60px 0;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav li a {
+  color: #77a466;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.header-image {
+  background: url('../img/hero-image.png');
+  background-size: cover;
+  border-bottom: solid 4px #77a466;
+  border-top: solid 4px #77a466;
+  display: inline-block;
+  height: 287px;
+  margin-left: 15px
+}
+
+/***** WELCOME SECTION *****/
+.welcome-section {
+  border-bottom: solid 2px #f0eef0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.welcome-section h2 {
+  color: #77a466;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.welcome-section p {
+  font-size: 16px;
+  line-height: 25px;
+}
+
+/***** SPECIALS SECTION *****/
+.todays-specials {
+  border-right: solid 2px #f0eef0;
+  font-family: "Montserrat", sans-serif;
+}
+
+
+.todays-specials ul {
+  color: #77a466;
+  font-size: 16px;
+  line-height: 18px;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.todays-specials li {
+  margin-top: 15px;
+  text-decoration: none;
+}
+
+/***** REVIEWS SECTION *****/
+
+.reviews {
+  border-right: solid 2px #f0eef0;
+}
+
+.reviews p {
+  line-height: 21px;
+}
+
+/***** CONTACT SECTION *****/
+
+.contact p {
+  line-height: 24px;
+}
+
+footer {
+  border-top: solid 2px #f0eef0;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 23px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+footer .emphasis-text {
+  color: #77a466;
+  font-family: "Dancing Script", cursive;
+  text-transform: lowercase;
+}
